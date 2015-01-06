@@ -21,7 +21,7 @@ $response = $chikkaAPI->sendText('innovalynx123', $receiver, $message);
 //if($response->status != 200){
 	header("HTTP/1.1 " . $response->status . " " . $response->message);
 //}
-
+//This is a comment
 //echo $response->description;
 
 ?>
